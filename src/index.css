@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+  
+
+a.active p{
+    color: white;
+    background-color: #fb923c;
+    
+}
+
+
+
+@media (max-width:640px) {
+    a{
+        padding: 2px;
+        padding-left: 8px;
+        
+    }
+    
+   
+    a.active p{
+        color: white;
+
+        
+    }}
