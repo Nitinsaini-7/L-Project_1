@@ -1,8 +1,8 @@
 import React from "react";
 import CategoriesSlider from "../components/Slider";
-import ProductsDisplay from "../components/Display";
+import ProductsDisplay from "../components/ProductsDisplay";
 
-const OurProducts = () => {
+const OurProductsPage = () => {
   const categories = [
     "All",
     "Tiffin Carrier",
@@ -46,4 +46,4 @@ const OurProducts = () => {
   );
 };
 
-export default OurProducts;
+export default OurProductsPage;

@@ -68,7 +68,7 @@ const Navbar = () => {
             state ? "block" : "hidden"
           }`}
         >
-          <ul className="justify-end items-center h-screen md:h-auto space-y-6 md:flex md:space-x-6 md:space-y-0">
+          <ul className="justify-end items-center h-screen md:h-auto space-y-6 md:flex md:space-x-4 md:space-y-0">
             {navigation.map((item, idx) => {
               return (
                 <li
@@ -83,7 +83,7 @@ const Navbar = () => {
                     to={item.path}
                     className="block"
                   >
-                    <p className=" text-center border-2 border-orange-400 font-semibold rounded-full px-4 p-1 text-orange-400 uppercase hover:bg-orange-400 hover:text-white duration-200"> {item.title}</p>
+                    <p className=" text-center text-lg md:text-sm sm:border-0 md:border-2 border-orange-400 font-semibold rounded-full p-2 px-3 text-orange-400 uppercase hover:bg-orange-400 hover:text-white duration-200"> {item.title}</p>
                     {/* <hr className="w-4/4 border-none h-1 bg-indigo-600 hidden" /> */}
                   </NavLink>
                 </li>

@@ -66,10 +66,11 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
-import OurProducts from './pages/OurProducts'
-import NewArrivals from './pages/NewArrivals'
-import About from './pages/About'
-import Contact from './pages/Contact'
+import OurProductsPage from './pages/OurProductsPage'
+import NewArrivalsPage from './pages/NewArrivalsPage'
+import AboutPage from './pages/AboutPage'
+import ContactPage from './pages/ContactPage'
+
 
 const App = () => {
   return (
@@ -78,10 +79,10 @@ const App = () => {
       <div className="">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/products" element={<OurProducts/>} />
-          <Route path="/new-arrivals" element={<NewArrivals/>} />
-          <Route path="/about" element={<About/>} />
-          <Route path="/contact" element={<Contact/>} />
+          <Route path="/products" element={<OurProductsPage/>} />
+          <Route path="/new-arrivals" element={<NewArrivalsPage/>} />
+          <Route path="/about" element={<AboutPage/>} />
+          <Route path="/contact" element={<ContactPage/>} />
         </Routes>
       </div>
       <Footer />
